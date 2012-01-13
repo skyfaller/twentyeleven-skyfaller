@@ -1,0 +1,4 @@
+==README==
+This is a README file for the Wordpress theme for Skyfaller.net
+
+===Really, it is===
