@@ -2,4 +2,4 @@
 This is a child theme of the Wordpress theme Twenty Eleven. It was created for Skyfaller.net, Nelson's personal homepage. 
 
 ===Font===
-I use @font-face to import a font from [The League of Moveable Type http://www.theleagueofmoveabletype.com/], specifically [Orbitron http://www.theleagueofmoveabletype.com/orbitron], to use in the header.
+I use @font-face to import a font from [http://www.theleagueofmoveabletype.com/ The League of Moveable Type], specifically [http://www.theleagueofmoveabletype.com/orbitron Orbitron ], to use in the header.
