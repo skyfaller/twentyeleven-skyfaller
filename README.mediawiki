@@ -1,5 +1,7 @@
-==README==
-This is a child theme of the Wordpress theme Twenty Eleven. It was created for Skyfaller.net, Nelson's personal homepage. 
+== README ==
+This is a [http://codex.wordpress.org/Child_Themes child theme] of the Wordpress theme [http://theme.wordpress.com/themes/twentyeleven/ Twenty Eleven]. It was created for [http://skyfaller.net Skyfaller.net], Nelson's personal homepage. 
 
-===Font===
-I use @font-face to import a font from [http://www.theleagueofmoveabletype.com/ The League of Moveable Type], specifically [http://www.theleagueofmoveabletype.com/orbitron Orbitron ], to use in the header.
+=== Font ===
+I use @font-face (more specifically, the [http://www.fontspring.com/blog/the-new-bulletproof-font-face-syntax Fontspring method])to import a font from [http://www.theleagueofmoveabletype.com/ The League of Moveable Type], specifically [http://www.theleagueofmoveabletype.com/orbitron Orbitron], to use in the header.
+
+Maybe I should use Google Web Fonts instead, but I hate relying on Google for everything.
