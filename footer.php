@@ -30,5 +30,9 @@
 
 <?php wp_footer(); ?>
 
+<?php /* Anti-PIPA banner */ ?>
+<script type="text/javascript" src="//www.hellobar.com/hellobar.js"></script>
+<script type="text/javascript">new HelloBar(1,47972);</script>
+
 </body>
 </html>
