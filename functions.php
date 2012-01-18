@@ -25,4 +25,3 @@ remove_action('wp_head', 'rsd_link');
 
 //Try killing the auto-adding of <p> tags. Edit the post to see the difference.
 //remove_filter ('the_content', 'wpautop');
-
