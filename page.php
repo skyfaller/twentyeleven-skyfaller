@@ -11,6 +11,9 @@
  * @subpackage Twenty_Eleven
  * @since Twenty Eleven 1.0
  */
+ 
+/* I eliminated comments on pages. I see no reason to allow
+ * comments on e.g. an about page. */
 
 get_header(); ?>
 
