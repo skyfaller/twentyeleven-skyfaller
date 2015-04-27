@@ -19,12 +19,11 @@ http://www.fontspring.com/blog/further-hardening-of-the-bulletproof-syntax
 
 @font-face {
 	font-family: 'OrbitronMedium';
-	src: url('./fonts/Orbitron/EOT/orbitron-medium.eot');
+	src: url('./fonts/Orbitron/EOT/orbitron-medium.eot'); /* IE9 Compat Modes */
 	src: url('./fonts/Orbitron/EOT/orbitron-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	     url('./fonts/Orbitron/OTF/orbitron-medium.otf') format('opentype'),
-	     url('./fonts/Orbitron/orbitron-medium-webfont.woff') format('woff'),
+	     url('./fonts/Orbitron/orbitron-medium-webfont.woff') format('woff'), /* Pretty modern browsers */
 	     url('./fonts/Orbitron/TTF/orbitron-medium.ttf')  format('truetype'), /* Safari, Android, iOS */
-	     url('./fonts/Orbitron/orbitron-medium-webfont.svg#OrbitronMedium') format('svg');
+	     url('./fonts/Orbitron/orbitron-medium-webfont.svg#OrbitronMedium') format('svg'); /* Legacy iOS */
 	}
 	
 /* =Header
