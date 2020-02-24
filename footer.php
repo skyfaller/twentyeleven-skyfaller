@@ -32,6 +32,6 @@
 
 <?php wp_footer(); ?>
 
-<script type="text/javascript" src="/wp-content/themes/twentyeleven-skyfaller/retina.js"></script>
+<script src="/wp-content/themes/twentyeleven-skyfaller/retina.js"></script>
 </body>
 </html>
