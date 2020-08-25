@@ -12,25 +12,25 @@ Version:        0.0.1
 @import url("../twentyeleven/style.css");
 
 /*
-Using Fontspring @font-face method described here:
-http://www.fontspring.com/blog/the-new-bulletproof-font-face-syntax
-http://www.fontspring.com/blog/further-hardening-of-the-bulletproof-syntax
+Using select styles from:
+https://github.com/majodev/google-webfonts-helper/
 */
 
+/* orbitron-500 - latin */
 @font-face {
-	font-family: 'OrbitronMedium';
-	src: url('./fonts/Orbitron/EOT/orbitron-medium.eot'); /* IE9 Compat Modes */
-	src: url('./fonts/Orbitron/EOT/orbitron-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	     url('./fonts/Orbitron/orbitron-medium-webfont.woff') format('woff'), /* Pretty modern browsers */
-	     url('./fonts/Orbitron/TTF/orbitron-medium.ttf')  format('truetype'), /* Safari, Android, iOS */
-	     url('./fonts/Orbitron/orbitron-medium-webfont.svg#OrbitronMedium') format('svg'); /* Legacy iOS */
-	}
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/orbitron-v16-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/orbitron-v16-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 	
 /* =Header
 ----------------------------------------------- */
 #site-title a {
 	color: #111;
-	font-family:OrbitronMedium,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:Orbitron,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 40px;
 	font-weight: 500;
 	line-height: 46px;
