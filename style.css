@@ -28,10 +28,10 @@ https://github.com/majodev/google-webfonts-helper/
 ----------------------------------------------- */
 #site-title a {
 	color: #111;
-	font-family:Orbitron,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 40px;
+	font-family: Orbitron, "DejaVu Sans", "Bitstream Vera Sans", Cantarell, Geneva, Verdana, sans-serif;
+	font-size: 38px;
 	font-weight: 500;
-	line-height: 46px;
+	line-height: 38px;
 	text-shadow: 2px 2px 2px LightSteelBlue;
     text-decoration: none;
 }
