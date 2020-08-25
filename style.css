@@ -12,11 +12,9 @@ Version:        0.0.1
 @import url("../twentyeleven/style.css");
 
 /*
-Using select styles from:
+Using select styles from Google web fonts, downloaded using:
 https://github.com/majodev/google-webfonts-helper/
 */
-
-/* orbitron-500 - latin */
 @font-face {
   font-family: 'Orbitron';
   font-style: normal;
