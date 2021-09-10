@@ -16,78 +16,102 @@ Using select styles from Google web fonts, downloaded using:
 https://github.com/majodev/google-webfonts-helper/
 */
 @font-face {
-  font-family: 'Orbitron';
-  font-style: normal;
-  font-weight: 500;
-  src: local(''),
-       url('./fonts/orbitron-v16-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/orbitron-v16-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-	
-/* =Header
------------------------------------------------ */
-#site-title a {
-	color: #111;
-	font-family: Orbitron, "DejaVu Sans", "Bitstream Vera Sans", Cantarell, Geneva, Verdana, sans-serif;
-	font-size: 38px;
+	font-family: 'Orbitron';
+	font-style: normal;
 	font-weight: 500;
-	line-height: 38px;
+	src: local(''),
+		url('./fonts/orbitron-v16-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+		url('./fonts/orbitron-v16-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body,
+input,
+textarea {
+	font-weight: normal;
+}
+
+/* Header */
+#site-title {
+	padding-top: 3.5em;
+}
+#site-title a {
+	font-family: Orbitron,"DejaVu Sans","Bitstream Vera Sans",Geneva,Verdana,sans-serif;
+	font-size: 2.6em;
+	font-weight: 500;
 	text-shadow: 2px 2px 2px LightSteelBlue;
-    text-decoration: none;
 }
 
 #site-description {
-	color: #7a7a7a;
-	font-size: 14px;
-	margin: 0 270px 2.427em 0;
+	font-size: 1.2em;
+	margin: 1.3vmin 0 2.5vmin;
 }
 
-/* =Content
------------------------------------------------ */ 
-.entry-content td,
-.comment-content td {
-	border:none;
-	padding: 6px 10px 6px 0;
+#branding #searchform {
+	top: 3.7em;
 }
 
-.entry-content h1,
-.entry-content h2,
-.comment-content h1,
-.comment-content h2 {
-	font-size: 19px;
-	font-weight: bold;
-	margin: 0 0 .8125em;
-	letter-spacing: 0.1em;
-	line-height: 2.6em;
-	text-transform: uppercase;
-
+/* Content */
+#main {
+	padding-top: 2vmin;
+}
+#secondary {
+	padding-top: 1vmin;
 }
 
-.entry-content h3,
-.comment-content h3 {
-	font-size: 15px;
-	font-weight: bold;
-	letter-spacing: 0.1em;
-	line-height: 2.6em;
-	text-transform: uppercase;
+#nav-above {
+	padding: 1vmin 0 1vmin !important;
 }
-
 
 /* Singular content styles for Posts and Pages */
-.singular .hentry {
-	border-bottom: none;
-	padding: 2.831em 0 0;
-	position: relative;
+.singular.page #main {
+	padding-top: 0;
 }
 
+.singular .entry-title {
+	line-height: 1.33;
+	padding-top: 0;
+}
+/* keep edit button aligned with headline */
+.singular .entry-meta .edit-link a {
+	top: 65px;
+}
+@media (max-width: 800px) {
+	.singular .entry-meta .edit-link a {
+		top: 27px;
+	}
+}
+
+.singular .hentry {
+	padding: 0;
+}
 .singular.page .hentry {
-	padding: 3.236em 0 0;
+	padding: 3.2em 0 0;
 }
 
 blockquote.pull {
-	font-size: 18px;
-	font-weight: bold;
-	line-height: 1.6125em;
-	margin: 0 0 1.625em;
-	text-align: center;
+	font-size: 1.1em;
+}
+blockquote cite {
+	top: -1em;
+}
+blockquote cite::before {
+	content: "— ";
+}
+
+/* fix misaligned buttons on comment form */
+#respond label {
+	top: unset !important;
+}
+
+@media (max-width: 650px) {
+	#site-title {
+		padding-top: 4.5em;
+	}
+	#branding #searchform {
+		top: 1.5em !important;
+	}
+	blockquote {
+		margin: 0 3vmin 2vmin 3vmin !important;
+		width: unset !important;
+	}
 }
