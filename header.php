@@ -62,6 +62,7 @@ if ( is_singular() && get_option( 'thread_comments' ) ) {
 		<?php
 			// Check to see if the header image has been removed.
 			$header_image = get_header_image();
+			$image_2x = preg_replace('/.png/', '@2x.png', $header_image);
 		if ( $header_image ) :
 			// Compatibility with versions of WordPress prior to 3.4.
 			if ( function_exists( 'get_custom_header' ) ) {
@@ -97,7 +98,7 @@ if ( is_singular() && get_option( 'thread_comments' ) ) {
 					$header_image_height = HEADER_IMAGE_HEIGHT;
 				}
 				?>
-				<img src=<?php header_image(); ?> width=<?php echo esc_attr( $header_image_width ); ?> height=<?php echo esc_attr( $header_image_height ); ?> alt="" />
+				<img sizes="(max-width: calc(1000px + 4em)) 100vw, 1000px" srcset="<?php header_image(); ?> 1000w, <?php echo esc_url( $image_2x ); ?> 2000w" src=<?php header_image(); ?> width=<?php echo esc_attr( $header_image_width ); ?> height=<?php echo esc_attr( $header_image_height ); ?> alt="">
 				<?php
 			} // End check for featured image or standard header.
 			?>
