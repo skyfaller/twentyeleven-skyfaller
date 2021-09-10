@@ -36,7 +36,7 @@ if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() ) {
 
 ?>
 </title>
-<link rel=stylesheet href=<?php bloginfo( 'stylesheet_url' ); ?> />
+<link rel=stylesheet href=<?php bloginfo( 'stylesheet_url' ); ?>>
 <link rel=pingback href=<?php echo esc_url( get_bloginfo( 'pingback_url' ) ); ?>>
 <?php
 	/*
