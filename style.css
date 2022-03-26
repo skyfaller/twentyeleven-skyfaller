@@ -110,8 +110,11 @@ blockquote cite::before {
 	#branding #searchform {
 		top: 1.5em !important;
 	}
-	blockquote {
+	blockquote:not(.format-quote *) {
 		margin: 0 3vmin 2vmin 3vmin !important;
 		width: unset !important;
+	}
+	.format-quote blockquote {
+		font-size: 15px;
 	}
 }
