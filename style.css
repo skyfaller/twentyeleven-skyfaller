@@ -98,11 +98,6 @@ blockquote cite::before {
 	content: "— ";
 }
 
-/* fix misaligned buttons on comment form */
-#respond label {
-	top: unset !important;
-}
-
 @media (max-width: 650px) {
 	#site-title {
 		padding-top: 4.5em;
