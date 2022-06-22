@@ -32,7 +32,8 @@ textarea {
 
 /* Header */
 #site-title {
-	padding-top: 3.5em;
+	margin-right: 0;
+	padding-top: 3.4vmin;
 }
 #site-title a {
 	font-family: Orbitron,"DejaVu Sans","Bitstream Vera Sans",Geneva,Verdana,sans-serif;
@@ -44,10 +45,6 @@ textarea {
 #site-description {
 	font-size: 1.2em;
 	margin: 1.3vmin 0 2.5vmin;
-}
-
-#branding #searchform {
-	top: 3.7em;
 }
 
 /* Content */
@@ -99,12 +96,6 @@ blockquote cite::before {
 }
 
 @media (max-width: 650px) {
-	#site-title {
-		padding-top: 4.5em;
-	}
-	#branding #searchform {
-		top: 1.5em !important;
-	}
 	blockquote:not(.format-quote *) {
 		margin: 0 3vmin 2vmin 3vmin !important;
 		width: unset !important;

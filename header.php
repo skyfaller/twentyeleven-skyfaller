@@ -105,23 +105,6 @@ if ( is_singular() && get_option( 'thread_comments' ) ) {
 		</a>
 		<?php endif; // End check for removed header image. ?>
 
-		<?php
-			// Has the text been hidden?
-		if ( 'blank' === get_header_textcolor() ) :
-			$header_image_class = '';
-			if ( $header_image ) {
-				$header_image_class = ' with-image';
-			}
-			?>
-		<div class="only-search<?php echo $header_image_class; ?>">
-			<?php get_search_form(); ?>
-		</div>
-			<?php
-			else :
-				?>
-				<?php get_search_form(); ?>
-		<?php endif; ?>
-
 		<nav id=access>
 			<h3 class=assistive-text><?php _e( 'Main menu', 'twentyeleven' ); ?></h3>
 			<?php
