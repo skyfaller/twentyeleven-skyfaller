@@ -68,15 +68,6 @@ textarea {
 	line-height: 1.33;
 	padding-top: 0;
 }
-/* keep edit button aligned with headline */
-.singular .entry-meta .edit-link a {
-	top: 65px;
-}
-@media (max-width: 800px) {
-	.singular .entry-meta .edit-link a {
-		top: 27px;
-	}
-}
 
 .singular .hentry {
 	padding: 0;
