@@ -2,7 +2,7 @@
 /**
  * Template for displaying the footer
  *
- * Contains the closing of the id=main div and all content after
+ * Contains the closing of <main> and all content after
  *
  * @package WordPress
  * @subpackage Twenty_Eleven
@@ -10,7 +10,7 @@
  */
 ?>
 
-	</main><!-- #main -->
+	</main>
 
 	<footer id=colophon>
 		<?php
