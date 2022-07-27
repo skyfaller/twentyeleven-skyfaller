@@ -9,7 +9,7 @@ I'd like to [de-Google my sites](https://markosaric.com/degoogleify/), and [self
 ## Transitioning away from GitHub
 I am planning to [Give up GitHub](https://sfconservancy.org/GiveUpGitHub/). As part of my migration plan, I will begin using [hydra hosting](https://seirdy.one/posts/2020/11/18/git-workflow-1/), setting up multiple git remotes of equal status. Currently I'm using SourceHut, Codeberg, and GitHub, but once I have enough other hosts I'll eliminate GitHub.
 
-You can run `git remote set-url` to switch remote locations if a host goes down. Right now, your two options are:
+You can run `git remote set-url` to switch remote locations if a host goes down. Right now, your options are:
 
 - https://git.sr.ht/~skyfaller/twentyeleven-skyfaller
 - https://codeberg.org/skyfaller/twentyeleven-skyfaller.git
@@ -20,3 +20,5 @@ Collaborators may prefer SSH:
 - `git@git.sr.ht:~skyfaller/twentyeleven-skyfaller`
 - `git@github.com:skyfaller/twentyeleven-skyfaller.git`
 - `git@codeberg.org:skyfaller/twentyeleven-skyfaller.git`
+
+But before pushing any commits, please make sure you know how to fetch from and push to all remotes simultaneously.
