@@ -18,7 +18,7 @@ You can run `git remote set-url` to switch remote locations if a host goes down.
 Collaborators may prefer SSH:
 
 - `git@git.sr.ht:~skyfaller/twentyeleven-skyfaller`
-- `git@github.com:skyfaller/twentyeleven-skyfaller.git`
 - `git@codeberg.org:skyfaller/twentyeleven-skyfaller.git`
+- `git@github.com:skyfaller/twentyeleven-skyfaller.git`
 
 But before pushing any commits, please make sure you know how to fetch from and push to all remotes simultaneously.
