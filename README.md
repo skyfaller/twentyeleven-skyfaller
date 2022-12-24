@@ -22,3 +22,9 @@ Collaborators may prefer SSH:
 - `git@github.com:skyfaller/twentyeleven-skyfaller.git`
 
 But before pushing any commits, please make sure you know how to fetch from and push to all remotes simultaneously.
+
+## License
+
+This project is licensed under the [GNU General Public License, version 2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) or any later version at your choice. See the [LICENSE](LICENSE) file for details.
+
+I chose GPLv2 or later to match the license for the parent theme: https://themes.svn.wordpress.org/twentyeleven/4.2/readme.txt
